@@ -1,0 +1,163 @@
+h1, h2, h3, h4, h5, h6, p, nav, img, iframe{margin: 0px; padding: 0px;}
+
+h1, h2, h3, h4, h5, h6, p, div{
+	font-family: "TyponineSans Regular 18"; 
+	text-align: center;
+	color: rgb(117,117,117);
+
+}
+
+//body{background-color: lightblue;}
+
+#title-panel {
+    padding: 240px 0;
+	height: 650px;
+	overflow: hidden;
+}
+
+
+
+.base, .flash{
+	position: relative;
+	display: block;
+}
+
+#title-panel>h1{
+    position: relative;
+    font-size: 59px;
+    opacity: .05;
+}
+
+
+.flash {
+	//opacity: 0;
+	margin-top: -300px;
+	-webkit-animation: 
+	flash 1.8s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes flash {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+.flash:hover {
+	-webkit-animation: ;
+}
+
+
+
+#arduino-section{
+	height: 650px;
+	//background-color: grey;
+	overflow: hidden;
+	font-size: 1.5em;
+}
+
+#web-section{
+	padding-top: 200px;
+	height: 550px;
+	//background-color: grey;
+	overflow: hidden;
+	font-size: 1.5em;
+}
+
+.button{
+	position: relative;
+	left: 50%;
+	top:0;
+	margin-left: -100px;
+	width: 200px;
+	height: 60px;
+	margin-bottom: 20px;
+	background-color: grey;
+	overflow: hidden ;
+	transition: background-color .2s ease-in-out;
+}
+
+.label{
+	position: relative;
+	margin-top: 15px;
+	top: 0px;
+	display: block;
+    transition: top .2s ease-in-out;  
+}
+
+
+
+.button:hover .label{
+	top: -50px;
+}
+
+.button:hover {
+	background-color: black;
+	transition: background-color .5s ease-in-out;
+}
+
+
+span{
+	margin-bottom: 15px;
+	color: white;
+	display: block;
+}
+
+.section{
+	padding: 200px 0;
+	min-height: 500px;
+	//background-color: lightgray;
+	overflow: hidden;
+	font-size: 1.5em;
+}
+
+.section>h3{
+    font-size: 100px;
+    color: #55C4C4;
+}
+
+.section>h4{
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.section>h4>a:link{color:rgb(117,117,117); text-decoration: none; }
+
+.section>h4>a:visited{color:rgb(117,117,117); text-decoration: none; }
+
+.section>h4>span{
+    font-size: 20px;
+    color:rgb(117,117,117);
+}
+
+.section>img{
+    margin-top: 70px;
+    position: relative;
+	display:block;
+	left: 50%;
+	margin-left: -150px;
+}
+
+img {
+	position: relative;
+	display:block;
+	left: 50%;
+	margin-left: -300px;
+}
+
+h4>img{
+    display: inline;
+    left: 0;
+    margin-left: 10px;
+    margin-top: -15px;
+}
+
+h3>span{
+    display: inline;
+    color: #55C4C4;
+    text-decoration: line-through
+}
+
+#ixda-fb{
+    left: 50%;
+    margin-left:-400px;
+    margin-top: 20px;
+}
